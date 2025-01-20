@@ -1,0 +1,136 @@
+{
+  "basePath": "/tech-radar",
+  "baseUrl": "",
+  "editUrl": "https://github.dev/tblxio/techradar-v2/blob/main/radar/{release}/{id}.md",
+  "logoFile": "logo.svg",
+  "jsFile": "",
+  "toggles": {
+    "showChart": true,
+    "showTagFilter": true,
+    "showQuadrantList": true,
+    "showEmptyRings": false
+  },
+  "sections": ["radar", "tags", "list"],
+  "colors": {
+    "foreground": "rgba(220,220,220,1)",
+    "background": "rgba(20,20,20,1)",
+    "highlight": "rgba(58, 170, 53, 1)",
+    "content": "rgba(30,30,30,1)",
+    "text": "rgba(230, 230, 230,1)",
+    "link": "rgba(58, 170, 53, 1)",
+    "border": "rgba(30, 30, 30,1)",
+    "tag": "rgba(35, 35, 35, 1)"
+  },
+  "quadrants": [
+    {
+      "id": "languages-and-frameworks",
+      "title": "Languages & Frameworks",
+      "description": "General-purpose or domain specific languages used to write application code, alongside essential frameworks that implement common patterns and functionalities.",
+      "color": "rgba(58, 170, 53, 1)"
+    },
+    {
+      "id": "platforms-and-infrastructure",
+      "title": "Platforms & Infrastructure",
+      "description": "Hosted environments, cloud services, container platforms, or foundational managed solutions upon which applications are deployed or run.",
+      "color": "#3f633e"
+    },
+    {
+      "id": "developer-tools",
+      "title": "Developer Tools",
+      "description": "Tools, services, or utilities that help us build, test, secure, and maintain our applications. Used mostly for development, CI/CD, monitoring, or operational tasks.",
+      "color": "#588157"
+    },
+    {
+      "id": "methods-and-patterns",
+      "title": "Methods & Patterns",
+      "description": "Key software development methods and design patterns, covering everything from continuous integration and testing to architecture.",
+      "color": "rgba(58, 170, 53, 1)"
+    }
+  ],
+  "rings": [
+    {
+      "id": "adopt",
+      "title": "Adopt",
+      "description": "",
+      "color": "rgba(58, 170, 53, 0.8)",
+      "radius": 0.5,
+      "strokeWidth": 5
+    },
+    {
+      "id": "trial",
+      "title": "Trial",
+      "description": "",
+      "color": "rgba(64, 82, 209, 0.7)",
+      "radius": 0.69,
+      "strokeWidth": 3
+    },
+    {
+      "id": "assess",
+      "title": "Assess",
+      "description": "",
+      "color": "#bc6c25",
+      "radius": 0.85,
+      "strokeWidth": 2
+    },
+    {
+      "id": "hold",
+      "title": "Hold",
+      "description": "",
+      "color": "rgba(214,40,40,0.7)",
+      "radius": 1,
+      "strokeWidth": 0.75
+    }
+  ],
+  "flags": {
+    "new": {
+      "color": "rgba(38, 154, 76, 1)",
+      "title": "New",
+      "titleShort": "N",
+      "description": "New in this version"
+    },
+    "changed": {
+      "color": "rgba(31, 71, 44, 1)",
+      "title": "Changed",
+      "titleShort": "C",
+      "description": "Recently changed"
+    },
+    "default": {
+      "description": "Unchanged"
+    }
+  },
+  "chart": {
+    "size": 800,
+    "blipSize": 12
+  },
+  "social": [
+    {
+      "href": "https://www.linkedin.com/company/tblx/",
+      "icon": "linkedIn"
+    },
+    {
+      "href": "https://www.instagram.com/wearetblx/",
+      "icon": "instagram"
+    },
+    {
+      "href": "https://github.com/tblxio",
+      "icon": "github"
+    }
+  ],
+  "imprint": "https://www.tblx.io/legal",
+  "labels": {
+    "title": "Technology Radar",
+    "imprint": "Legal Information",
+    "quadrant": "Quadrant",
+    "quadrantOverview": "Quadrant Overview",
+    "zoomIn": "Zoom in",
+    "filterByTag": "Filter by Tag",
+    "footer": "© tb.lx by Daimler Truck AG",
+    "notUpdated": "This item was not updated in last three versions of the Radar. Should it have appeared in one of the more recent editions, there is a good chance it remains pertinent. However, if the item dates back further, its relevance may have diminished and our current evaluation could vary. Regrettably, our capacity to consistently revisit items from past Radar editions is limited.",
+    "notFound": "404 - Page not found",
+    "pageAbout": "How to use the Technology Radar?",
+    "pageOverview": "Technologies Overview",
+    "pageSearch": "Search",
+    "searchPlaceholder": "What are you looking for?",
+    "metaDescription": ""
+  }
+}

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200..900&display=swap');
+
+body,
+button,
+li,
+p,
+a,
+span {
+  font-family: "Source Sans 3", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Source Sans 3", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+}
+
+strong {
+  font-weight: 500;
+}
+
+hr {
+  display: block;
+  height: 2px;
+  border: 0;
+  border-top: 1px solid rgba(30, 30, 30, 1);
+  margin-top: 10px;
+  margin-bottom: 25px;
+  padding: 0;
+}
+
+[class^="Layout_content"] > h1 > span {
+  display: none;
+}
+
+input,
+[class^="ItemList_link"]:hover, 
+[class*="ItemList_isActive"] {
+  background-color: rgba(30, 30, 30,1)  !important;
+  color: rgba(240, 240, 240,1)  !important;
+}
+
+input:active, 
+input:focus {
+  background-color: rgba(10, 10, 10,1)  !important;
+  color: rgba(240, 240, 240,1)  !important;
+  border: none;
+}
+
+[class^="QueryFilter_icon"],
+[class*="Navigation_icon"] {
+  opacity: 0.8;
+}
+
+
+[class^="Footer_branding"] {
+  justify-content: space-between !important;
+}
+
+[class^="Footer_logo"] {
+  width: 100px !important;
+  height: auto !important;
+}
+
+[class^="Footer_branding"] > p {
+  text-align: center !important;
+}
